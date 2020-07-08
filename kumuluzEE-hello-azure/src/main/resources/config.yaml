@@ -1,0 +1,20 @@
+kumuluzee:
+  name: kumuluzEE-hello-azure
+  version: 1.0-SNAPSHOT
+  env:
+    name: dev
+  datasources:
+    - jndi-name: java:global/JPAWorldDataSource
+      connection-url: jdbc:mysql://my-mysqlserver.mysql.database.azure.com:3306/world?useSSL=true&requireSSL=false&serverTimezone=JST
+      username: azureuser@my-mysqlserver
+      password: 
+      max-pool-size: 20
+  openapi-mp:
+    enabled: true
+    scan:
+      packages: com.microsoft.azure.samples.kumuluzee
+    servers: http://localhost:8080
+  metrics:
+  server:
+    http:
+      port: 8080
