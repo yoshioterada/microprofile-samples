@@ -6,7 +6,7 @@ At first, please configure the following parameter.
 
 
 ```bash
-export MYSQL_RES-GRP_NAME=MySQL-RG
+export MYSQL_RES_GRP_NAME=MySQL-RG
 export MYSQL_SERVER_NAME=my-mysqlserver
 export MYSQL_USER=azureuser
 export MYSQL_PASSWORD=
@@ -15,7 +15,7 @@ export MYSQL_LOCATION=japaneast
 
 |  KEY NAME  |  Description  |
 | ---- | ---- |
-|  MYSQL_RES-GRP_NAME  |  Resource Group Name of MySQL  |
+|  MYSQL_RES_GRP_NAME  |  Resource Group Name of MySQL  |
 |  MYSQL_SERVER_NAME  |  Server Name of MySQL  |
 |  MYSQL_USER  |  Admin User Name of MySQL  |
 |  MYSQL_PASSWORD  |  Admin Password of MySQL  |
