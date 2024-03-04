@@ -93,10 +93,10 @@ Get the Sample DB from MySQL.
 [https://dev.mysql.com/doc/index-other.html](https://dev.mysql.com/doc/index-other.html)
 
 World DB.  
-[https://downloads.mysql.com/docs/world.sql.zip](https://downloads.mysql.com/docs/world.sql.zip)
+[https://downloads.mysql.com/docs/world-db.zip](https://downloads.mysql.com/docs/world-db.zip)
 
 ```bash
-curl https://downloads.mysql.com/docs/world.sql.zip -o world.sql.zip
+curl https://downloads.mysql.com/docs/world-db.zip -o world.sql.zip
 unzip world.sql.zip
 ```
 
