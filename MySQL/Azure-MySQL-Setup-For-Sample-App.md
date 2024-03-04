@@ -96,8 +96,8 @@ World DB.
 [https://downloads.mysql.com/docs/world-db.zip](https://downloads.mysql.com/docs/world-db.zip)
 
 ```bash
-curl https://downloads.mysql.com/docs/world-db.zip -o world.sql.zip
-unzip world.sql.zip
+curl https://downloads.mysql.com/docs/world-db.zip -o world-db.zip
+unzip world-db.zip
 ```
 
 ## Create Sample DB and Import Data
