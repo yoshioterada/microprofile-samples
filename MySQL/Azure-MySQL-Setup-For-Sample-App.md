@@ -103,7 +103,7 @@ unzip world-db.zip
 ## Create Sample DB and Import Data
 
 ```bash
-mysql> source world.sql
+mysql> source world-db/world.sql
 Query OK, 0 rows affected (0.01 sec)
 
 Query OK, 0 rows affected (0.01 sec)
