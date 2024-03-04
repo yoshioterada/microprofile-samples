@@ -340,7 +340,7 @@ az network vnet create -g MicroProfile \
 ## Create SubNet
 
 ```azurecli
-az network vnet subnet create \ 
+az network vnet subnet create \
     -g MicroProfile \
     -n Helidon-Subnet \
     --vnet-name WebApp-VNET \
